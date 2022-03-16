@@ -7,6 +7,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 
 function DrugFormOne() {
     const [date, setDate] = useState(new Date());
+    
   const handleChange = date => setDate(date);
 
   return (
